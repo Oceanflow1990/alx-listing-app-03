@@ -38,3 +38,35 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+
+# ALX Listing App
+
+## Overview
+The **ALX Listing App** is a simple web application inspired by Airbnb’s listing page.  
+Its primary goal is to provide a clean and responsive interface where users can view property listings, showcasing details such as images, descriptions, and booking options.  
+
+This project is part of the ALX Software Engineering program and demonstrates frontend development skills using **Next.js**, **TypeScript**, and **TailwindCSS**.
+
+---
+
+## Project Structure
+The project follows a modular structure for scalability and maintainability:
+
+alx-listing-app/
+│
+├── components/ # Reusable UI components (e.g., Card, Button)
+│ └── common/ # Shared components used across multiple pages
+│
+├── interfaces/ # TypeScript interfaces for props and data models
+│
+├── constants/ # Static values and reusable configuration (e.g., API URLs, strings)
+│
+├── public/ # Static assets such as images, icons, and fonts
+│ └── assets/ # Project-specific images and media files
+│
+├── pages/ # Application pages managed by Next.js
+│
+├── styles/ # Global and TailwindCSS styles
+│
+└── README.md # Project documentation
