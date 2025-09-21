@@ -1,19 +1,13 @@
-import React from "react";
+// components/common/Pill.tsx
+import React from "react"
+import { PillProps } from "@/interfaces"
 
-interface PillProps {
-  label: string;
-  onClick?: () => void;
+const Pill: React.FC<PillProps> = ({ label }) => {
+  return (
+    <span className="px-4 py-2 bg-gray-200 rounded-full text-sm cursor-pointer hover:bg-indigo-600 hover:text-white">
+      {label}
+    </span>
+  )
 }
 
-const Pill: React.FC<PillProps> = ({ label, onClick }) => {
-  return (
-    <button
-      onClick={onClick}
-      className="px-4 py-2 bg-gray-200 rounded-full text-sm font-medium hover:bg-blue-500 hover:text-white transition"
-    >
-      {label}
-    </button>
-  );
-};
-
-export default Pill;
+export default Pill

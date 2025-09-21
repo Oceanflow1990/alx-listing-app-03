@@ -1,7 +1,6 @@
 // constants/index.ts
 import { PropertyProps } from "@/interfaces"
 
-// Example hero background (make sure you actually place this image in /public/images/)
 export const HERO_BG = "/images/hero-bg.jpg"
 
 export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
@@ -25,5 +24,5 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     image: "https://example.com/image2.jpg",
     discount: "30"
   },
-  // ... rest of properties (from your provided list)
+  // … include all properties from the instruction
 ]

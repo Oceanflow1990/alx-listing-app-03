@@ -1,26 +1,12 @@
-export interface CardProps {
-  // Define CardProps properties
-  title: string;
-  description: string;
-  // Add more properties as needed
-}
-
-export interface ButtonProps {
-  // Define ButtonProps properties
-  text: string;
-  onClick: () => void;
-  // Add more properties as needed
-}
-
 // interfaces/index.ts
 
-export interface Address {
+export interface AddressProps {
   state: string
   city: string
   country: string
 }
 
-export interface Offers {
+export interface OffersProps {
   bed: string
   shower: string
   occupants: string
@@ -28,11 +14,15 @@ export interface Offers {
 
 export interface PropertyProps {
   name: string
-  address: Address
+  address: AddressProps
   rating: number
   category: string[]
   price: number
-  offers: Offers
+  offers: OffersProps
   image: string
   discount: string
+}
+
+export interface PillProps {
+  label: string
 }
